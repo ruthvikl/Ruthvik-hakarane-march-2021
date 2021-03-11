@@ -2,6 +2,7 @@ var express = require('express');
 var app = express();
 const path = require("path")
 var fs = require("fs");
+var PORT = process.env.PORT || 3000;
 
 app.locals.users = require('./info.json')
 app.locals.project = require('./projects.json')
@@ -30,6 +31,6 @@ app.use('/css', express.static(path.resolve(__dirname, "assets/css")))
 app.use('/img', express.static(path.resolve(__dirname, "assets/img")))   
 // app.use('/js', express.static(path.resolve(__dirname, "assets/js")))
 
-app.listen(8000, ()=> { 
-   console.log(`Server is running @ ${8000}`)
+app.listen(PORT, ()=> { 
+   console.log(`Server is running @ ${PORT}`)
 });
