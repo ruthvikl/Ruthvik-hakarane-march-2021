@@ -1,0 +1,36 @@
+<%- include('include/_header') %>
+</head>
+<body>
+<div id="profile">
+    <h1 class="title"><%= users.name %></h1>
+    <figure class="image is-128x128">
+        <img class="is-rounded"src="img/pro.jpg" alt="Profile Picture">
+    </figure>
+    <h2><span title is-2>Date of Birth:</span> <%= users.DateofBirth %></h2>
+    <h2><span title is-3>College: </span><%= users.College %></h2>
+    <h2><span title is-3>Year of Joining: </span><%= users.YearofJoining %></h2>
+    <h2><span title is-3>Graduation Year:</span> <%= users.GraduationYear %></h2>
+    <h2><span title is-3><i class="fa fa-github" aria-hidden="true"></i> GitHub Profile:<%= users.GitHubProfile %></span> </h2>
+    <h2><span title is-3><i class="fa fa-linkedin" aria-hidden="true"></i> LinkdinProfile:<%= users.LinkdinProfile %></span> </h2>
+    <div class="language">
+        <h2><span title is-3>Language:</span></h2>
+        <ul><% users.language.forEach(function(item){%>
+            <li><%= item.lang%></li>
+        <% });%>
+        </ul></div>
+        <div class="Work">
+        <h2><span title is-3>Work Experience:</span></h2>
+        <ul><% users.WorkExperience.forEach(function(item){%>
+            <li><%= item.work%></li>
+        <% });%>
+        </ul>
+        </div>
+        <div class="Programming">
+        <h2><span title is-3> Programming Languages:</span></h2>
+        <ul><% users.ProgrammingLanguages.forEach(function(item){%>
+            <li><%= item.lang%></li>
+        <% });%>
+        </ul>
+        </div>
+</div>
+<%- include('include/_footer') %>

@@ -1,0 +1,39 @@
+{
+    "projects":[
+        {
+            "project":"BAVA COPY",
+            "Description":"This is a django project that displays bhavcopy in a table. ",
+            "githublink":"https://github.com/ruthvikl/BavaCopy"
+        },
+        {
+            "project":"Capstone-Project",
+            "Description":"An Android app which displays restaurants nearby",
+            "githublink":"https://github.com/ruthvikl/Capstone-Project"
+        },
+        {
+            "project":"FS",
+            "Description":"A python project to replace and search through files in a folder",
+            "githublink":"https://github.com/ruthvikl/FS"
+        },
+        {
+            "project":"typing-speed-tester",
+            "Description":"A HTML CSS project to check typing speed",
+            "githublink":"https://github.com/ruthvikl/typing-speed-tester"
+        },
+        {
+            "project":"pushNotification",
+            "Description":"web app to show push notifications using node.js, service worker",
+            "githublink":"https://github.com/ruthvikl/pushNotification"
+        },
+        {
+            "project":"Analog-clock",
+            "Description":"Analog clock webpage using html css and javascript",
+            "githublink":"https://github.com/ruthvikl/Analog-clock"
+        },
+        {
+            "project":"Inventory System",
+            "Description":"A simple Inventory System Using python flask framework",
+            "githublink":"https://github.com/ruthvikl/InventorySystem"
+        }
+    ]
+}

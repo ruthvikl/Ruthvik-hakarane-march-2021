@@ -1,0 +1,43 @@
+<%- include('include/_header') %>
+<style>
+    #projects{
+        text-align: center;
+        
+        color: wheat;
+    }
+    h1, .table, th{
+        margin: auto;
+        color: wheat !important;
+        background-color: black;
+    }
+    html, body {
+        height: 100%;
+        background-color:black;
+    }
+</style>
+</head>
+<body>
+<div id="projects">
+    <h1 class="title ">Projects</h1>
+    <table class="table is-bordered ">
+        <thead>
+          <tr>
+            <th>Project Title</th>
+            <th>Description</th>
+            <th><i class="fa fa-github" aria-hidden="true"></i> GitHub Link</th>
+          </tr>
+        </thead>
+        <tbody>
+            <% project.projects.forEach(function(item){%>
+                <tr>
+                    <td><%= item.project%></td>
+                    <td><%= item.Description%></td>
+                    <td><a target="blank" href="<%= item.githublink%>"><%= item.project%></a></td>
+                </tr>
+            <% });%>
+        </tbody>
+    </table>
+</div>
+
+
+<%- include('include/_footer') %>

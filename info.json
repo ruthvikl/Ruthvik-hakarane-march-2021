@@ -1,9 +1,49 @@
-{"user" : {
-    "name" : "Ruthvik L",
-    "Date of Birth" : "22-08-1999",
-    "College" : "Jyothy Institute of Technology",
-    "Branch" : "Information Science and Engineering",
-    "Year of Joining" : 2017,
-    "Graduation Year": 2021
-    }
+{
+"name" : "Ruthvik L",
+"DateofBirth" : "22-08-1999",
+"College" : "Jyothy Institute of Technology",
+"Branch" : "Information Science and Engineering",
+"YearofJoining" : 2017,
+"GraduationYear": 2021,
+"GitHubProfile" : "https://github.com/ruthvikl",
+"LinkdinProfile" : "https://www.linkedin.com/in/ruthvik-l/",
+"language":[
+    {
+    "lang":"Tulu(Mother Tounge)"
+    },
+    {
+    "lang":"English"
+    },
+    {
+    "lang":"Kannada"
+    },
+    {
+    "lang":"Hindi"
+    }],
+"WorkExperience":[
+    {
+    "work":"Vrook"
+    },
+    {
+    "work":" Queppelin Technology Solutions Private Limited"
+    }],
+"ProgrammingLanguages":[
+    {
+    "lang":"HTML"
+    },
+    {
+    "lang":"JAVA"
+    },
+    {
+    "lang":"PYTHON"
+    },
+    {
+    "lang":"JAVASCRIPT"
+    },
+    {
+    "lang":"CSS"
+    },
+    {
+    "lang":"Nodejs"
+    }]
 }

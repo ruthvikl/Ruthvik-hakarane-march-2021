@@ -1,0 +1,34 @@
+#profile, #projects{
+    background-color:black;
+    text-align: center;
+    color: wheat;
+}
+
+.language{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Work{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Programming{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    color: wheat !important;
+}
+
+span{
+    font-weight: 600 !important;
+}
+
+.image{
+    margin: auto;
+    margin-bottom: 10vmin;
+}
