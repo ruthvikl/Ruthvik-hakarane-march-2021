@@ -9,7 +9,7 @@ $ cd Ruthvik-hakarane-march-2021
 $ npm install
 $ npm start
 ```
-Your app should now be running on localhost:5000.
+Your app should now be running on https://localhost:5000.
 
 # Deploying to Heroku
 
